@@ -1,6 +1,6 @@
 services:
-  okbag:
+  oktetobag:
     build: .
     shm_size: 2.6gb
     ports:
-      - "443:443"
+      - "80:80"
